@@ -20,9 +20,9 @@ LOCAL_OVERRIDES_PACKAGES := Gallery Gallery3D GalleryNew3D
 
 #LOCAL_SDK_VERSION := current
 
-LOCAL_JNI_SHARED_LIBRARIES := libjni_mosaic libjni_eglfence
+LOCAL_JNI_SHARED_LIBRARIES := libjni_legacymosaic libjni_eglfence
 
-LOCAL_REQUIRED_MODULES := libjni_mosaic libjni_eglfence
+LOCAL_REQUIRED_MODULES := libjni_legacymosaic libjni_eglfence
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
